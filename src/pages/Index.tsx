@@ -7,7 +7,7 @@ import Benefits from "@/components/sections/Benefits";
 import TrustElements from "@/components/sections/TrustElements";
 import FAQ from "@/components/sections/FAQ";
 import Footer from "@/components/layout/Footer";
-import { MessageSquare, ChevronUp } from "lucide-react";
+import { MessageSquare, ChevronUp, Users, Briefcase } from "lucide-react";
 
 const Index = () => {
   // Scroll to top function
