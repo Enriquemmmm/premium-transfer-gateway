@@ -12,14 +12,27 @@ const Hero = () => {
   
   return (
     <section className="relative min-h-screen flex items-center pt-20">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
+      {/* Background Video with Overlay */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-navy/70 to-navy/30 z-10"></div>
-        <img 
-          src="https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=2940&auto=format&fit=crop" 
-          alt="Luxury Vehicle in Giethoorn" 
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
           className="w-full h-full object-cover object-center"
-        />
+        >
+          <source 
+            src="https://cdn.pixabay.com/vimeo/498378962/van-62359.mp4?width=1280&hash=d05ae33fe4b0c3b74d4e2dd3f83f43a66e5c0121" 
+            type="video/mp4" 
+          />
+          {/* Fallback image in case video doesn't load */}
+          <img 
+            src="https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=2940&auto=format&fit=crop" 
+            alt="Luxury Vehicle in Giethoorn" 
+            className="w-full h-full object-cover object-center"
+          />
+        </video>
       </div>
       
       {/* Content */}
