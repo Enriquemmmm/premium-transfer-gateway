@@ -34,8 +34,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl mb-8 max-w-2xl">
-            Enjoy a premium, door-to-door transfer service with professional drivers and luxury vehicles. 
-            No hidden costs, free flight monitoring, and 60-minute wait time included.
+            Travel comfortably from Schiphol Airport to the picturesque village of Giethoorn, one of Holland's most beloved tourist destinations. Enjoy premium door-to-door service with professional drivers, free flight monitoring, and a 60-minute wait time included.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
