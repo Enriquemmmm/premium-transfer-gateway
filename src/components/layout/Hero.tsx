@@ -16,15 +16,15 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-navy/70 to-navy/30 z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=2940&auto=format&fit=crop" 
-          alt="Luxury Vehicle in Giethoorn" 
+          src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=2942&auto=format&fit=crop" 
+          alt="Professional White Van on Dutch Road" 
           className="w-full h-full object-cover object-center"
         />
       </div>
       
       {/* Content */}
       <div className="container-custom relative z-20">
-        <div className="max-w-3xl animate-fade-in">
+        <div className="max-w-3xl">
           <div className="inline-block px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm text-white border border-white/10 text-sm font-medium mb-6">
             Schiphol Airport ↔ Giethoorn | 24/7 Service
           </div>
