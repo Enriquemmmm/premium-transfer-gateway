@@ -13,11 +13,11 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/50 to-navy/20 z-1"></div>
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/70 to-navy/30 z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1596622822268-abf77c2c2efb?q=80&w=2070&auto=format&fit=crop" 
-          alt="Giethoorn canals with traditional thatched roof houses" 
+          src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=2942&auto=format&fit=crop" 
+          alt="Professional White Van on Dutch Road" 
           className="w-full h-full object-cover object-center"
         />
       </div>
