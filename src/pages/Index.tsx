@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
@@ -7,17 +6,9 @@ import Benefits from "@/components/sections/Benefits";
 import TrustElements from "@/components/sections/TrustElements";
 import FAQ from "@/components/sections/FAQ";
 import Footer from "@/components/layout/Footer";
-import { MessageSquare, ChevronUp, Users, Briefcase } from "lucide-react";
+import { MessageSquare, Users, Briefcase } from "lucide-react";
 
 const Index = () => {
-  // Scroll to top function
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  
   // Intersection Observer for animations
   useEffect(() => {
     const observerOptions = {
@@ -257,17 +248,10 @@ const Index = () => {
       <Footer />
       
       {/* Floating Help Button */}
-      <button className="fixed bottom-8 right-8 z-40 bg-accent text-white rounded-full p-4 shadow-xl hover:bg-accent-light transition-colors">
+      <button className="fixed bottom-8 right-8 z-40 bg-accent text-white rounded-full p-4 shadow-xl hover:bg-accent/80 transition-colors">
         <MessageSquare className="h-6 w-6" />
       </button>
       
-      {/* Scroll to Top Button */}
-      <button 
-        onClick={scrollToTop}
-        className="fixed bottom-8 left-8 z-40 bg-white text-navy rounded-full p-4 shadow-xl hover:bg-silver-light transition-colors"
-      >
-        <ChevronUp className="h-6 w-6" />
-      </button>
     </div>
   );
 };
